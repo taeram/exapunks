@@ -1,0 +1,27 @@
+### Cycles: 14, Size: 18, Activity: 1
+
+#### XA
+```
+GRAB 300
+COPY F M
+COPY F M
+COPY F M
+COPY F M
+COPY F M
+WIPE
+HALT
+```
+
+#### XB
+```
+LINK 800
+GRAB 200
+SEEK 9999
+COPY M F
+COPY M F
+COPY M F
+COPY M F
+COPY M F
+DROP
+HALT
+```
