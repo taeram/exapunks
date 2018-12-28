@@ -1,4 +1,4 @@
-### Cycles: 14, Size: 18, Activity: 1
+### Cycles: 13, Size: 14, Activity: 1
 
 #### XA
 ```
@@ -8,8 +8,6 @@ COPY F M
 COPY F M
 COPY F M
 COPY F M
-WIPE
-HALT
 ```
 
 #### XB
@@ -22,6 +20,4 @@ COPY M F
 COPY M F
 COPY M F
 COPY M F
-DROP
-HALT
 ```
