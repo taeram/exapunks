@@ -1,0 +1,17 @@
+### Cycles: 305, Size: 11, Activity: 2
+
+#### XA
+```
+LINK 800
+GRAB 200
+COPY F T
+WIPE
+LINK 800
+MAKE
+
+MARK LOOP
+COPY T F
+SUBI T 1 T
+TJMP LOOP
+COPY 0 F
+```
