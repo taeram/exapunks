@@ -1,0 +1,17 @@
+### Cycles: 166, Size: 10, Activity: 1
+
+#### XA
+```
+GRAB 300
+LINK 800
+
+MARK LOOP
+DIVI X 9 #DATA
+MODI X 9 #DATA
+COPY F #DATA
+ADDI X 1 X
+TEST EOF
+FJMP LOOP
+
+WIPE
+```
