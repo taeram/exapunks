@@ -1,4 +1,4 @@
-### Cycles: 639, Size: 33, Activity: 2
+### Cycles: 639, Size: 32, Activity: 2
 
 #### XA
 ```
@@ -33,7 +33,6 @@ ADDI X F X
 TEST EOF
 FJMP READ_VALUES
 
-MARK SETUP_VALUES
 SEEK -9999
 SEEK 2
 
