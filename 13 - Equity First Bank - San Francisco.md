@@ -1,4 +1,4 @@
-### Cycles: 5020, Size: 20, Activity: 10
+### Cycles: 3020, Size: 17, Activity: 10
 
 #### XA
 ```
@@ -16,14 +16,10 @@ JUMP CHILD
 
 MARK MOVE
 LINK X
+COPY #CASH T
 
 MARK DISPENSE
-COPY #CASH X
-TEST X > 0
-FJMP FINISH
 COPY 20 #DISP
-JUMP DISPENSE
-
-MARK FINISH
-HALT
+SUBI T 1 T
+TJMP DISPENSE
 ```
